@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo:hover{
+    cursor: pointer;
+}
+
+.tentang-kami:hover{
+    cursor:pointer;
+}
+
+.hero{
+    width: 100%;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header{
+    margin-top: 20px;
+    display: flex;
+}
+
+.texts{
+    padding: 10px;
+    margin: 10px;
+}
+
+.imgsm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer{
+    background-color: gray;
+    padding: 15px;
+}
+
+@media only screen and (max-width: 620px) {
+    /* For mobile phones: */
+    .header {
+      display: block;
+    }
+  }
